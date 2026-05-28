@@ -1,0 +1,11 @@
+margin - imaginary space outside the container. not in the div or any element.
+we can also give margin in negative direction but not in padding.
+ 
+padding - imaginary space inside the container/box.
+
+border-radius - use to make curve edger or to make circle.
+
+border syntax:-
+border - size(2px) | solid/dashed/dotted | color.
+
+border - 2px solid blue  and it can also be none

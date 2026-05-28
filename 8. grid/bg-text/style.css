@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    font-size: 150px;
+    font-weight: 1000;
+    background-size: cover;
+    color: transparent;
+    background-clip: text;
+    font-family: sans-serif;
+    -webkit-text-stroke: 5px lavender;
+    /* For Border of text*/
+    background-image: url(https://media.istockphoto.com/id/1565946409/photo/abstract-art-background-in-purple-pink-tones.webp?a=1&b=1&s=612x612&w=0&k=20&c=sd6rAJmLmLOj76yF0Hrl0N1DPbbJTOBeqmi4u6wNa2s=);
+}

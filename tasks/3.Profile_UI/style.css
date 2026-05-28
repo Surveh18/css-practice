@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(163, 165, 229);
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 10px 25px rgb(0, 0, 0, 0.22);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.card img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    /* Object fit cover works on img tag
+    if we work on bg-img then background size cover */
+}
+
+.card h2 {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.card p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+
+.card button {
+    border-radius: 50px;
+    padding: 10px 30px;
+    background-color: burlywood;
+    border: 2px solid rgb(130, 130, 209);
+}
+
+.card button:hover {
+    background-color: transparent;
+    cursor: pointer;
+}

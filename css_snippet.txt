@@ -1,0 +1,2 @@
+To write boiler plate as shortcut- it's actually a snippet
+setting -> snippets -> css.json

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.card {
+    height: 300px;
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    /* [x-axis - 10px | y-axis - 10px | blur - 20px]*/
+}
+
+.card img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card h2 {
+    font-weight: 500;
+    font-size: 22px;
+}

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#iteam {
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#box1 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+
+#box2 {
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+}
+
+
+#box3 {
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+}

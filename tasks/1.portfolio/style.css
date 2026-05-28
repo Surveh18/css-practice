@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* Border - radius */
+#aboutme,
+#education,
+#skills,
+#projects,
+#contact {
+    border-radius: 10px;
+}
+
+#aboutme p,
+#education p,
+#skills p,
+#projects p,
+#contact p {
+    border-radius: 10px;
+}
+
+/* Main */
+#main {
+    text-align: center;
+}
+
+#main h1 {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 35px;
+}
+
+/* Intro */
+#intro {
+    height: 150px;
+    color: azure;
+    background-color: #1a2434;
+}
+
+#intro p {
+    font-style: italic;
+}
+
+/* About me */
+#aboutme {
+    height: 150px;
+    background-color: blueviolet;
+    margin: 30px 150px;
+}
+
+/* Education */
+#education {
+    padding-top: 15px;
+    height: 220px;
+    background-color: red;
+    margin: 30px 150px;
+}
+
+#education p {
+    padding: 8px;
+    background-color: beige;
+    margin: 10px 280px;
+}
+
+/* Skills */
+#skills {
+    padding-top: 15px;
+    height: 350px;
+    background-color: rgb(54, 159, 219);
+    margin: 0 150px;
+}
+
+#skills p {
+    font-weight: bold;
+    padding: 8px;
+    background-color: white;
+    margin: 10px 280px;
+}
+
+/* Projects */
+#projects {
+    padding-top: 15px;
+    height: 260px;
+    background-color: rgb(156, 73, 112);
+    margin: 30px 150px;
+}
+
+#projects p {
+    padding: 8px;
+    background-color: white;
+    margin: 10px 280px;
+}
+
+/* Contact me */
+#contact {
+    padding-top: 15px;
+    height: 260px;
+    background-color: rgb(135, 85, 178);
+    margin: 30px 150px;
+}
+
+#contact p {
+    padding: 8px;
+    background-color: white;
+    margin: 10px 280px;
+}
+
+/* Fotter */
+footer {
+    text-align: center;
+    background-color: darkslateblue;
+    height: 40px;
+    color: aliceblue;
+    padding: 40px 0px;
+}

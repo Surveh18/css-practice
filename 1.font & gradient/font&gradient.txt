@@ -1,0 +1,76 @@
+To Target a specific html element with id we use #id_name in css.
+To target a specific html element with class we use .class_name in css.
+while writing element and id both shortcut ?
+
+Boiler plate of css:- 
+---- START ----
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+---- END ----
+
+- If want to use a custom font do download it put in same directory then in css
+@font-face {
+    font-family: fancy; -- here at the place of fancy we can write anything jo naam se font family mai call krvana hai.
+    src: url(./Hugh\ is\ Life\ Personal\ Use\ .ttf);
+}
+then normally in font-family: fancy;
+
+To download any website font
+inspect -> network health -> font -> double click on any font.
+
+
+- To add a gradient effect to anything in css
+Types : 
+1. Linear gradient - background: linear-gradient(to bottom, purple, beige);
+we can also use to right, to left(jo side pr direction dena hai vo side mention krni hai)
+
+- color hum km zyada bhi use kr skte hai apne according (to left, purple 60%, red)
+- for diagonal 
+to top right → diagonal from bottom-left to top-right
+to top left → diagonal from bottom-right to top-left
+to bottom left → diagonal from top-right to bottom-left
+
+for more control -  background: linear-gradient(45deg, purple, beige);
+
+2. radial gradient - same as above but in circular way
+
+3. A **conic gradient** - it is different from a linear one: instead of blending colors along a straight line, it blends them around a **circle or angle sweep**, like a pie chart or radial spin.  
+
+Here’s a simple example:
+
+```css
+background: conic-gradient(purple, beige);
+```
+
+That will create a circular sweep starting at the top (default 0deg) and rotating clockwise.  
+
+You can control the angle and position too:
+
+```css
+/* Start at 45 degrees */
+background: conic-gradient(from 45deg, purple, beige);
+
+/* Center the gradient at top left corner */
+background: conic-gradient(at top left, purple, beige);
+```
+
+You can also add multiple color stops for more complex effects:
+
+```css
+background: conic-gradient(
+  purple 0deg 90deg,
+  beige 90deg 180deg,
+  pink 180deg 270deg,
+  lightblue 270deg 360deg
+);
+```
+
+👉 Think of conic gradients as “color wheels” or “spinning blends,” while linear gradients are “straight blends.”  

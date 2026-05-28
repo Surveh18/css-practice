@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    height: 10 0%;
+    width: 100%;
+    /* background-size: contain;  to have the image height-wise*/
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* use to cover width part */
+    /* background-color: blue; */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-position: bottom; */
+    /* background-image: url(https://plus.unsplash.com/premium_photo-1690559307656-2f7ac6a65ccf?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+}
