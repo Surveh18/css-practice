@@ -1,0 +1,9 @@
+To work on background images we use properties like
+- background-image: url("image.jpg");
+-  background-size: cover;
+-  background-position: center;
+-  background-repeat: no-repeat;
+
+When we work on objects
+- object-fit: cover;
+- object-position: centre;
