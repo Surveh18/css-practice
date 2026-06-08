@@ -23,6 +23,19 @@ body {
 
 }
 
+#parent::-webkit-scrollbar {
+    /* display: none; */
+    background-color: blue;
+}
+
+#parent::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 10px solid #fff;
+}
+
+
+
+
 .child1 {
     flex-shrink: 0;
     height: 350px;
